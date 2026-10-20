@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-10-20T02:05:25+00:00",
+  "generatedAt": "2026-10-20T02:07:35+00:00",
   "title": "Design System: Flanders Wood Floors & Construction",
   "extensions": {
     "colorMeta": {
@@ -197,6 +197,30 @@
       "body": {
         "displayName": "Body",
         "purpose": "Running text, inputs, chips, errors, footer."
+      },
+      "display-landscape": {
+        "displayName": "Display (landscape phone)",
+        "purpose": "Hero H1 at 760px+ wide and 520px or less tall, so the H1 and buttons stay on the first screen."
+      },
+      "promise": {
+        "displayName": "Promise",
+        "purpose": "The one-line hero promise on navy; max 30ch on phones."
+      },
+      "step-title-desktop": {
+        "displayName": "Step title (desktop)",
+        "purpose": "Step titles at 1024px and up."
+      },
+      "wordmark-desktop": {
+        "displayName": "Wordmark (desktop)",
+        "purpose": "\"Flanders\" wordmark in the header from 760px."
+      },
+      "wordmark-sub": {
+        "displayName": "Wordmark subline",
+        "purpose": "Uppercase 0.06em subline under the wordmark only."
+      },
+      "tel-narrow": {
+        "displayName": "Header phone (narrow)",
+        "purpose": "Header phone number at 340px and below, icon hidden."
       }
     },
     "texture": {
@@ -207,7 +231,7 @@
     "focus": [
       {
         "name": "focus-light",
-        "value": "outline:3px solid #1e3a5c; outline-offset:3px; border-radius:6px",
+        "value": "outline:3px solid #1e3a5c; outline-offset:3px; border-radius:{rounded.focus}",
         "purpose": "Default focus on paper and white."
       },
       {
@@ -295,6 +319,14 @@
       "quote form: paper",
       "close: navy",
       "footer: deep + texture"
+    ],
+    "houseExceptions": [
+      {
+        "name": "eyebrow pills",
+        "canonized": false,
+        "body": "Two quiet eyebrow pills (\"Free estimates\", above the hero H1 and the form heading) ship by Ellie's choice (calm-photo-style.md item 5): 14px, oak dot, faint tint, no hover, no arrow, no shadow. Impeccable bans eyebrows, so they are recorded here as an exception, not a token.",
+        "source": "DESIGN.md, House-style exception: eyebrow pills"
+      }
     ]
   },
   "components": [

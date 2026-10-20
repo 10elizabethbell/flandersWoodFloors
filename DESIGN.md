@@ -47,7 +47,38 @@ typography:
     fontSize: "16px"
     fontWeight: 400
     lineHeight: 1.7
+  display-landscape:
+    fontFamily: "Cal Sans, Avenir Next, Segoe UI, system-ui, sans-serif"
+    fontSize: "clamp(40px, calc(7vh + 20px), 60px)"
+    fontWeight: 400
+    lineHeight: 1.02
+  promise:
+    fontFamily: "-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica Neue, Arial, sans-serif"
+    fontSize: "clamp(17px, 4.7vw, 20px)"
+    fontWeight: 400
+    lineHeight: 1.5
+  step-title-desktop:
+    fontFamily: "Cal Sans, Avenir Next, Segoe UI, system-ui, sans-serif"
+    fontSize: "22px"
+    fontWeight: 400
+    lineHeight: 1.2
+  wordmark-desktop:
+    fontFamily: "Cal Sans, Avenir Next, Segoe UI, system-ui, sans-serif"
+    fontSize: "25px"
+    fontWeight: 400
+    lineHeight: 1
+  wordmark-sub:
+    fontFamily: "-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica Neue, Arial, sans-serif"
+    fontSize: "12px"
+    fontWeight: 600
+    lineHeight: 1
+  tel-narrow:
+    fontFamily: "Cal Sans, Avenir Next, Segoe UI, system-ui, sans-serif"
+    fontSize: "15px"
+    fontWeight: 400
+    lineHeight: 1
 rounded:
+  focus: "6px"
   field: "10px"
   card: "24px"
   pill: "999px"
