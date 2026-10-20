@@ -1,0 +1,17 @@
+{
+  "detector": {
+    "ignoreRules": [],
+    "ignoreFiles": [],
+    "ignoreValues": [
+      {
+        "rule": "repeating-stripes-gradient",
+        "value": "*",
+        "files": [
+          "index.html"
+        ],
+        "createdAt": "2026-10-20T01:54:19.342Z",
+        "reason": "Ellie's house style: calm-photo-style.md item 2 (2026-10-19) specifies this faint 135deg band texture on deep bands"
+      }
+    ]
+  }
+}

@@ -88,7 +88,7 @@ section{padding:64px 0}
 .brand{display:flex;flex-direction:column;justify-content:center;min-height:44px;text-decoration:none;line-height:1}
 .brand b{font:400 22px/1 var(--display);letter-spacing:.01em}
 .brand span{font:600 11px/1 var(--text);letter-spacing:.08em;white-space:nowrap;text-transform:uppercase;color:var(--soft);margin-top:5px}
-.tel{display:inline-flex;align-items:center;gap:8px;min-height:44px;padding:0 2px;font:400 17px/1 var(--display);text-decoration:none;white-space:nowrap}
+.tel{display:inline-flex;align-items:center;gap:8px;min-height:44px;padding:0 2px;font:400 18px/1 var(--display);text-decoration:none;white-space:nowrap}
 .tel svg{width:18px;height:18px;flex:none;color:var(--oak-ink)}
 
 /* ---------- Hero: plain textured navy (no usable photo yet) ---------- */
@@ -133,7 +133,7 @@ section{padding:64px 0}
 .ask .wrap{display:grid;gap:28px}
 form{background:var(--card);border-radius:var(--r-card);padding:clamp(20px,5vw,32px);display:grid;gap:20px;max-width:600px}
 .field{display:grid;gap:8px;min-width:0}
-.field label,.field legend{font:400 17px/1.2 var(--display);color:var(--ink);padding:0}
+.field label,.field legend{font:400 18px/1.2 var(--display);color:var(--ink);padding:0}
 .field small{font:400 14px/1 var(--text);color:var(--soft);margin-left:4px}
 fieldset{border:0;margin:0;padding:0;min-width:0}
 input[type=text],textarea{width:100%;font:16px/1.4 var(--text);color:var(--ink);background:var(--field);border:2px solid transparent;border-radius:var(--r-field);padding:13px 14px;min-height:52px;caret-color:var(--navy);transition:border-color .15s}
@@ -146,16 +146,16 @@ input[type=text]:focus,textarea:focus{outline:none;border-color:var(--focus)}
 .chips input:focus-visible+label{outline:3px solid var(--focus);outline-offset:3px}
 .chips input:checked+label{background:var(--ink);color:#fff}
 .chips input[type=checkbox]:checked+label::before{content:"";width:12px;height:7px;border:solid currentColor;border-width:0 0 2.5px 2.5px;transform:rotate(-45deg) translateY(-2px);margin-right:10px}
-.err{display:none;font-size:15px;color:var(--error)}
+.err{display:none;font-size:16px;color:var(--error)}
 .field.bad .err{display:block}
 .field.bad input[type=text],.field.bad textarea,.field.bad input[type=text]:focus,.field.bad textarea:focus{border-color:var(--error)}
 form .btn-primary{width:100%}
 form .btn-primary:focus-visible{outline:2px solid var(--focus);outline-offset:2px}
-.after{font-size:15px;color:var(--soft)}
+.after{font-size:16px;color:var(--soft)}
 .sent{display:grid;gap:10px;background:var(--field);border-radius:var(--r-field);padding:16px}
 .sent p{color:var(--ink)}
 .sent a{white-space:nowrap;font-weight:600}
-.sent pre{margin:0;font:15px/1.5 var(--text);white-space:pre-wrap;color:var(--body)}
+.sent pre{margin:0;font:16px/1.5 var(--text);white-space:pre-wrap;color:var(--body)}
 .linkbtn{justify-self:start;min-height:44px;padding:0 18px;border-radius:var(--pill);border:2px solid var(--ink);background:transparent;color:var(--ink);font:400 16px/1 var(--display);cursor:pointer}
 @media (max-width:380px){.chips label{padding:0 14px}.brand b{font-size:20px}.brand span{font-size:10px;letter-spacing:.06em}.tel{font-size:16px}}
 @media (max-width:340px){.top .wrap{gap:8px}.tel{font-size:15px}.tel svg{display:none}}
