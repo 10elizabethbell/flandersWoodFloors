@@ -1,0 +1,503 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Flanders Wood Floors &amp; Construction · Hardwood, LVP and tile in Flanders, NJ</title>
+<meta name="description" content="Hardwood, LVP and tile floors, kitchens, bathrooms and decks in the Flanders, NJ area. Free estimates: 973-252-9051.">
+<meta name="theme-color" content="#f4f6fb">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Flanders Wood Floors &amp; Construction · Floors laid right in Flanders, NJ.">
+<meta property="og:description" content="Hardwood, LVP and tile, kitchens, bathrooms and decks. Free estimates: 973-252-9051.">
+<meta property="og:url" content="https://10elizabethbell.github.io/flandersWoodFloors/">
+<meta property="og:image" content="https://10elizabethbell.github.io/flandersWoodFloors/img/og.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="img/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="img/icon-180.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cal+Sans&display=swap">
+<style>
+/* ---------- Tokens ---------- */
+:root{
+  /* off-white paper, two navies, one warm oak accent (no logo or brand colours exist; oak comes from the trade) */
+  --paper:#f4f6fb;       /* page ground */
+  --card:#ffffff;
+  --field:#e6ecf5;       /* inputs and chips on the white form card */
+  --ink:#132840;         /* headings, text on oak */
+  --body:#2a3748;        /* running text on light */
+  --soft:#4a5668;        /* secondary text on light */
+  --navy:#1e3a5c;        /* hero, how it works, close */
+  --deep:#132840;        /* services, footer (line texture) */
+  --on-dark:#f4f6fb;
+  --on-dark-soft:#c8d4e4;
+  --oak:#d9a25a;         /* honey oak, fills only; text on it is --ink */
+  --oak-2:#e6b878;
+  --oak-ink:#875016;     /* oak as text on light (6.1:1 on paper) */
+  --line:rgba(19,40,64,.12);
+  --focus:#1e3a5c;       /* form hover/focus outline, distinct from the oak fill */
+  --error:#b3261e;
+  --texture:repeating-linear-gradient(135deg,transparent 0 22px,rgba(255,255,255,.035) 22px 23px);
+  --display:"Cal Sans","Avenir Next","Segoe UI",system-ui,sans-serif;
+  --text:-apple-system,BlinkMacSystemFont,"Segoe UI","Helvetica Neue",Arial,sans-serif;
+  --r-card:24px;--r-field:10px;--pill:999px;
+  --gutter:20px;
+}
+*{box-sizing:border-box}
+[hidden]{display:none!important}
+html{-webkit-text-size-adjust:100%;scroll-behavior:smooth;background:var(--paper);scrollbar-color:var(--navy) var(--paper)}
+body{margin:0;font:16px/1.7 var(--text);color:var(--body);background:var(--paper)}
+::selection{background:var(--oak);color:var(--ink)}
+img,svg{display:block}
+a{color:inherit}
+:focus-visible{outline:3px solid var(--focus);outline-offset:3px;border-radius:6px}
+.on-navy :focus-visible,.on-deep :focus-visible,.hero :focus-visible,footer :focus-visible{outline-color:var(--oak)}
+.wrap{width:100%;max-width:1160px;margin:0 auto;padding:0 var(--gutter)}
+h1,h2,h3{margin:0;font-family:var(--display);font-weight:400;line-height:1.08;letter-spacing:-.005em;color:var(--ink);text-wrap:balance}
+h2{font-size:clamp(30px,7.6vw,48px)}
+p{margin:0}
+
+/* ---------- Bands ---------- */
+section{padding:64px 0}
+.on-paper{background:var(--paper)}
+.on-navy{background:var(--navy);color:var(--on-dark-soft)}
+.on-deep{background-color:var(--deep);background-image:var(--texture);color:var(--on-dark-soft)}
+.on-navy h2,.on-deep h2,.on-navy h3,.on-deep h3{color:var(--on-dark)}
+.accent{color:var(--oak-ink)}
+.on-navy .accent,.on-deep .accent,.hero .accent{color:var(--oak)}
+.head{display:grid;gap:16px;justify-items:start;max-width:640px}
+.lede{font-size:clamp(17px,4.6vw,19px);color:var(--soft);max-width:38ch}
+
+/* Eyebrow: a few key headings only. A label, not a button. */
+.eyebrow{display:inline-flex;align-items:center;gap:10px;font:500 14px/1 var(--text);letter-spacing:.02em;color:var(--ink);background:rgba(19,40,64,.06);padding:9px 14px;border-radius:var(--pill)}
+.eyebrow::before{content:"";width:7px;height:7px;border-radius:50%;background:var(--oak)}
+.hero .eyebrow,.on-navy .eyebrow,.on-deep .eyebrow{color:var(--on-dark);background:rgba(255,255,255,.12)}
+
+/* ---------- Buttons ---------- */
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;min-height:56px;padding:0 26px;border-radius:var(--pill);font:400 18px/1 var(--display);text-decoration:none;cursor:pointer;border:2px solid transparent;transition:background-color .2s,color .2s,border-color .2s,transform .12s}
+.btn:active{transform:scale(.98)}
+.btn svg{width:20px;height:20px;flex:none}
+.btn-primary{background:var(--oak);color:var(--ink);border-color:var(--oak)}
+.btn-ghost{background:transparent;color:var(--on-dark);border-color:rgba(244,246,251,.7)}
+
+/* ---------- Header ---------- */
+.top{background:var(--paper);color:var(--ink)}
+.top .wrap{display:flex;align-items:center;justify-content:space-between;gap:12px;min-height:64px;padding-top:max(8px,env(safe-area-inset-top))}
+.brand{display:flex;flex-direction:column;justify-content:center;min-height:44px;text-decoration:none;line-height:1}
+.brand b{font:400 22px/1 var(--display);letter-spacing:.01em}
+.brand span{font:600 11px/1 var(--text);letter-spacing:.08em;white-space:nowrap;text-transform:uppercase;color:var(--soft);margin-top:5px}
+.tel{display:inline-flex;align-items:center;gap:8px;min-height:44px;padding:0 2px;font:400 17px/1 var(--display);text-decoration:none;white-space:nowrap}
+.tel svg{width:18px;height:18px;flex:none;color:var(--oak-ink)}
+
+/* ---------- Hero: plain textured navy (no usable photo yet) ---------- */
+.hero{padding:0;position:relative;background-color:var(--navy);background-image:var(--texture);color:var(--on-dark);overflow:hidden}
+.hero-copy{position:relative;display:grid;gap:20px;justify-items:start;padding-top:56px;padding-bottom:64px}
+.hero h1{color:#fff;font-size:clamp(42px,12vw,84px);line-height:1.02;max-width:11ch}
+/* H1 bounce-in (after lpmr.co.uk): each letter slides in from 50px right with a slight overshoot, 20ms apart */
+.hero h1 .w{display:inline-block;white-space:nowrap}
+.hero h1 .c{display:inline-block;opacity:0;transform:translateX(50px);animation:letter-in 1s cubic-bezier(.34,1.56,.64,1) forwards;animation-delay:calc(var(--i) * 20ms)}
+@keyframes letter-in{to{opacity:1;transform:none}}
+.hero h1.wait{visibility:hidden}
+.promise{font-size:clamp(17px,4.7vw,20px);line-height:1.5;color:var(--on-dark);max-width:30ch}
+.actions{display:grid;gap:12px;width:100%;margin-top:4px}
+
+/* ---------- Services: rows on navy, only the arrow reacts ---------- */
+.rows{list-style:none;margin:28px 0 0;padding:0}
+.rows li{border-top:1px solid rgba(255,255,255,.12)}
+.rows li:last-child{border-bottom:1px solid rgba(255,255,255,.12)}
+.row{display:flex;align-items:center;justify-content:space-between;gap:16px;min-height:68px;padding:10px 0;text-decoration:none;color:var(--on-dark);font:400 clamp(21px,5.6vw,24px)/1.2 var(--display)}
+.row:hover,.row:focus-visible{outline:none;background:none;box-shadow:none}
+.arrow{width:44px;height:44px;flex:none;border-radius:50%;display:grid;place-items:center;background:rgba(255,255,255,.1);color:var(--on-dark);transition:background-color .2s,color .2s}
+.arrow svg{width:18px;height:18px}
+.row:focus-visible .arrow{background:var(--oak);color:var(--ink);outline:3px solid var(--oak);outline-offset:3px}
+
+/* ---------- Care + Facebook ---------- */
+.care .wrap{display:grid;gap:28px}
+.care .lede{margin-top:16px;max-width:42ch}
+.fb{display:flex;align-items:center;justify-content:space-between;gap:14px;min-height:84px;padding:14px 16px 14px 22px;border-radius:var(--r-card);background:var(--navy);color:var(--on-dark);text-decoration:none;font:400 clamp(20px,5.4vw,23px)/1.2 var(--display)}
+.fb:hover,.fb:focus-visible{outline:none;box-shadow:none}
+.fb .lbl{display:flex;align-items:center;gap:14px}
+.fb .lbl svg{width:30px;height:30px;flex:none;color:var(--oak)}
+.fb:focus-visible .arrow{background:var(--oak);color:var(--ink);outline:3px solid var(--oak);outline-offset:3px}
+
+/* ---------- How it works ---------- */
+.steps{list-style:none;margin:36px 0 0;padding:0;display:grid;gap:24px;counter-reset:s}
+.steps li{display:grid;grid-template-columns:48px 1fr;gap:16px;align-items:start;counter-increment:s}
+.steps li::before{content:counter(s);width:48px;height:48px;border-radius:50%;display:grid;place-items:center;background:var(--oak);color:var(--ink);font:400 20px/1 var(--display)}
+.steps b{display:block;font:400 21px/1.2 var(--display);color:var(--on-dark);margin-top:4px}
+.steps span{display:block;margin-top:4px}
+
+/* ---------- Form ---------- */
+.ask .wrap{display:grid;gap:28px}
+form{background:var(--card);border-radius:var(--r-card);padding:clamp(20px,5vw,32px);display:grid;gap:20px;max-width:600px}
+.field{display:grid;gap:8px;min-width:0}
+.field label,.field legend{font:400 17px/1.2 var(--display);color:var(--ink);padding:0}
+.field small{font:400 14px/1 var(--text);color:var(--soft);margin-left:4px}
+fieldset{border:0;margin:0;padding:0;min-width:0}
+input[type=text],textarea{width:100%;font:16px/1.4 var(--text);color:var(--ink);background:var(--field);border:2px solid transparent;border-radius:var(--r-field);padding:13px 14px;min-height:52px;caret-color:var(--navy);transition:border-color .15s}
+textarea{min-height:120px;resize:vertical}
+input::placeholder,textarea::placeholder{color:var(--soft)}
+input[type=text]:focus,textarea:focus{outline:none;border-color:var(--focus)}
+.chips{display:flex;flex-wrap:wrap;gap:10px}
+.chips input{position:absolute;width:1px;height:1px;opacity:0;margin:0}
+.chips label{display:inline-flex;align-items:center;min-height:48px;padding:0 18px;border-radius:var(--pill);background:var(--field);border:2px solid transparent;font:16px/1 var(--text);color:var(--ink);cursor:pointer;margin:0;transition:border-color .15s,background-color .15s,color .15s}
+.chips input:focus-visible+label{outline:3px solid var(--focus);outline-offset:3px}
+.chips input:checked+label{background:var(--ink);color:#fff}
+.chips input[type=checkbox]:checked+label::before{content:"";width:12px;height:7px;border:solid currentColor;border-width:0 0 2.5px 2.5px;transform:rotate(-45deg) translateY(-2px);margin-right:10px}
+.err{display:none;font-size:15px;color:var(--error)}
+.field.bad .err{display:block}
+.field.bad input[type=text],.field.bad textarea,.field.bad input[type=text]:focus,.field.bad textarea:focus{border-color:var(--error)}
+form .btn-primary{width:100%}
+form .btn-primary:focus-visible{outline:2px solid var(--focus);outline-offset:2px}
+.after{font-size:15px;color:var(--soft)}
+.sent{display:grid;gap:10px;background:var(--field);border-radius:var(--r-field);padding:16px}
+.sent p{color:var(--ink)}
+.sent a{white-space:nowrap;font-weight:600}
+.sent pre{margin:0;font:15px/1.5 var(--text);white-space:pre-wrap;color:var(--body)}
+.linkbtn{justify-self:start;min-height:44px;padding:0 18px;border-radius:var(--pill);border:2px solid var(--ink);background:transparent;color:var(--ink);font:400 16px/1 var(--display);cursor:pointer}
+@media (max-width:380px){.chips label{padding:0 14px}.brand b{font-size:20px}.brand span{font-size:10px;letter-spacing:.06em}.tel{font-size:16px}}
+@media (max-width:340px){.top .wrap{gap:8px}.tel{font-size:15px}.tel svg{display:none}}
+
+/* ---------- Close ---------- */
+.close .who{margin-top:14px;font-size:clamp(18px,5vw,20px);color:var(--on-dark)}
+.bigtel{display:inline-flex;align-items:center;gap:12px;margin-top:28px;font:400 clamp(30px,9vw,52px)/1 var(--display);text-decoration:none;color:var(--on-dark);min-height:56px;white-space:nowrap}
+.bigtel svg{width:.8em;height:.8em;flex:none;color:var(--oak)}
+.area{margin-top:22px;max-width:40ch}
+
+/* ---------- Footer ---------- */
+footer{background-color:var(--deep);background-image:var(--texture);color:var(--on-dark-soft);padding:48px 0 calc(96px + env(safe-area-inset-bottom));font-size:16px}
+footer .wrap{display:grid;gap:14px}
+.nw{white-space:nowrap}
+footer nav{display:flex;flex-wrap:wrap;gap:6px 22px}
+footer a{display:inline-flex;align-items:center;min-height:44px;color:var(--on-dark);text-decoration:none}
+
+/* ---------- Floating text circle (one circle, never a bottom bar) ---------- */
+.float{position:fixed;z-index:15;right:calc(16px + env(safe-area-inset-right));bottom:calc(16px + env(safe-area-inset-bottom));width:60px;height:60px;border-radius:50%;display:grid;place-items:center;background:var(--oak);color:var(--ink);box-shadow:0 10px 28px rgba(10,20,36,.3);transform:translateY(120px);transition:transform .35s cubic-bezier(.2,.8,.2,1)}
+.float.on{transform:none}
+.float svg{width:26px;height:26px}
+.float:focus-visible{outline:3px solid #fff;outline-offset:2px;border-radius:50%;box-shadow:0 0 0 8px var(--ink),0 10px 28px rgba(10,20,36,.3)}
+
+/* ---------- Motion: one fade-up, only for things below the first screen ---------- */
+.js .rise{transition:opacity .4s ease-out,transform .4s ease-out}
+.js .rise.below{opacity:0;transform:translateY(12px)}
+
+/* ---------- Desktop ---------- */
+@media (min-width:760px){
+  :root{--gutter:40px}
+  .top .wrap{min-height:76px}
+  .brand b{font-size:25px}
+  .brand span{font-size:12px}
+  .tel{font-size:20px}
+  section{padding:96px 0}
+  .hero-copy{padding-top:112px;padding-bottom:120px}
+  .promise{max-width:none}
+  .actions{grid-auto-flow:column;justify-content:start;width:auto}
+  .actions .btn{min-width:240px}
+  .fb{max-width:520px}
+}
+@media (min-width:1024px){
+  .rows{display:grid;grid-template-columns:1fr 1fr;column-gap:64px}
+  .rows li:nth-last-child(2):nth-child(odd){border-bottom:1px solid rgba(255,255,255,.12)}
+  .care .wrap{grid-template-columns:1.2fr 1fr;gap:64px;align-items:end}
+  .ask .wrap{grid-template-columns:1fr 1.2fr;gap:64px;align-items:start}
+  .ask .head{position:sticky;top:40px}
+  .close .wrap{display:grid;grid-template-columns:1fr auto;gap:48px;align-items:end}
+  .bigtel{margin-top:0}
+  .how .steps{grid-template-columns:repeat(3,1fr);gap:40px}
+  .steps b{font-size:22px}
+}
+/* hover styles only where there is a real pointer, so taps don't leave them stuck on */
+@media (hover:hover){
+.tel:hover{color:var(--oak-ink)}
+.btn-primary:hover{background:var(--oak-2);border-color:var(--oak-2)}
+.btn-ghost:hover{border-color:#fff;background:rgba(255,255,255,.1)}
+.row:hover .arrow,.fb:hover .arrow{background:var(--oak);color:var(--ink)}
+input[type=text]:hover,textarea:hover{border-color:var(--focus)}
+.chips label:hover{border-color:var(--focus)}
+.chips input:checked+label:hover{outline:2px solid var(--focus);outline-offset:2px}
+form .btn-primary:hover,.linkbtn:hover{outline:2px solid var(--focus);outline-offset:2px}
+.sent a:hover{color:var(--navy)}
+.bigtel:hover{color:var(--oak)}
+footer a:hover{color:var(--oak)}
+}
+@media (prefers-reduced-motion:reduce){
+  html{scroll-behavior:auto}
+  .js .rise,.float,.btn{transition:none}
+  .js .rise.below{opacity:1;transform:none}
+  .hero h1 .c{animation:none;opacity:1;transform:none}
+}
+</style>
+</head>
+<body>
+<!--
+THESIS: A northern-NJ flooring crew's site that earns trust through calm order (after lpmr.co.uk): one claim (floors laid right in Flanders, NJ), one promise about how they treat your home, and an easy way to ask for the free estimate their ads already offer.
+OWN-WORLD: Off-white paper, navy (#1e3a5c) and deep navy (#132840, faint diagonal lines) bands, honey oak (#d9a25a) as the one warm accent (fills only; #875016 when it has to be text on light). Cal Sans display, system body at 16/1.7. No logo or brand colours exist, so the oak comes from the trade and the name is set as a wordmark.
+STORY: The visitor sees who lays floors near Flanders, sees what they install (hardwood, LVP, tile, plus kitchens, bathrooms and decks), believes they'll treat the house with care, and texts or calls for a free estimate.
+FIRST VIEWPORT: Paper header with the Flanders wordmark left and tap-to-call number top right. Textured navy hero: eyebrow, "Floors laid right in Flanders, NJ.", one promise line, two pill buttons (Get a free estimate, Text us a photo).
+FORM: calm band system without photos (none could be fetched: the flyer sits behind a Facebook login); a floorboard world is offered as opt-in motion in HANDOFF.md.
+FINISH: unreviewed and undocumented is unfinished; this build ends with the finish review, DESIGN.md, and the finishing-rules checklist.
+-->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+  <symbol id="i-phone" viewBox="0 0 24 24"><path d="M5 3h3.5l1.8 4.6-2.3 1.5a11 11 0 0 0 6 6l1.5-2.3L20 14.5V18a2 2 0 0 1-2.2 2A16 16 0 0 1 3 5.2 2 2 0 0 1 5 3z" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+  <symbol id="i-chat" viewBox="0 0 24 24"><path d="M4 5h16v11H9l-5 4z" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+</svg>
+<header class="top">
+  <div class="wrap">
+    <a class="brand" href="#" aria-label="Flanders Wood Floors and Construction, back to top"><b>Flanders</b><span>Wood Floors &amp; Construction</span></a>
+    <a class="tel" href="tel:+19732529051"><svg aria-hidden="true"><use href="#i-phone"/></svg>973-252-9051</a>
+  </div>
+</header>
+
+<main id="top">
+<section class="hero" id="hero" aria-labelledby="h1">
+  <div class="wrap hero-copy">
+    <p class="eyebrow">Free estimates</p>
+    <h1 id="h1">Floors laid right in <span class="accent">Flanders, NJ.</span></h1>
+    <p class="promise">We treat your home like it's our own, from the first board to the last.</p>
+    <div class="actions">
+      <a class="btn btn-primary" href="#ask">Get a free estimate</a>
+      <a class="btn btn-ghost" href="sms:+19732529051?&amp;body=Hi!%20I%20found%20your%20website.%20Here's%20a%20photo%20of%20the%20room%20I'd%20like%20a%20free%20estimate%20for%3A%20"><svg aria-hidden="true"><use href="#i-chat"/></svg>Text us a photo</a>
+    </div>
+  </div>
+</section>
+
+<section class="on-deep" id="services" aria-labelledby="h-svc">
+  <div class="wrap">
+    <h2 id="h-svc" class="rise">What we <span class="accent">install.</span></h2>
+    <ul class="rows">
+      <li class="rise"><a class="row" data-job="Hardwood" href="#ask">Hardwood floors<span class="arrow" aria-hidden="true"><svg><use href="#i-arrow"/></svg></span></a></li>
+      <li class="rise"><a class="row" data-job="LVP" href="#ask">LVP<span class="arrow" aria-hidden="true"><svg><use href="#i-arrow"/></svg></span></a></li>
+      <li class="rise"><a class="row" data-job="Tile" href="#ask">Tile<span class="arrow" aria-hidden="true"><svg><use href="#i-arrow"/></svg></span></a></li>
+      <li class="rise"><a class="row" data-job="Kitchen" href="#ask">Kitchens<span class="arrow" aria-hidden="true"><svg><use href="#i-arrow"/></svg></span></a></li>
+      <li class="rise"><a class="row" data-job="Bathroom" href="#ask">Bathrooms<span class="arrow" aria-hidden="true"><svg><use href="#i-arrow"/></svg></span></a></li>
+      <li class="rise"><a class="row" data-job="Deck" href="#ask">Decks<span class="arrow" aria-hidden="true"><svg><use href="#i-arrow"/></svg></span></a></li>
+    </ul>
+  </div>
+</section>
+
+<section class="on-paper care" aria-labelledby="h-care">
+  <div class="wrap">
+    <div class="rise">
+      <h2 id="h-care">A floor you'll be glad to <span class="accent">walk on.</span></h2>
+      <p class="lede">You walk across your floors every day, so we lay each one like we'll be living on it ourselves. We take care with the rest of your house while we work, and we're not done until you're happy with it.</p>
+    </div>
+    <a class="fb rise" href="https://www.facebook.com/profile.php?id=100000115766293" rel="noopener">
+      <span class="lbl"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M24 12a12 12 0 1 0-13.9 11.9v-8.4h-3V12h3V9.4c0-3 1.8-4.7 4.5-4.7 1.3 0 2.7.2 2.7.2v2.9h-1.5c-1.5 0-2 .9-2 1.9V12h3.4l-.5 3.5h-2.9v8.4A12 12 0 0 0 24 12z"/></svg>Click to see more of our work.</span>
+      <span class="arrow" aria-hidden="true"><svg><use href="#i-arrow"/></svg></span>
+    </a>
+  </div>
+</section>
+
+<section class="on-navy how" aria-labelledby="h-how">
+  <div class="wrap">
+    <h2 id="h-how" class="rise">How it <span class="accent">works.</span></h2>
+    <ol class="steps">
+      <li class="rise"><div><b>Tell us about the room.</b><span>A few lines and a photo is plenty to start.</span></div></li>
+      <li class="rise"><div><b>Get a free estimate.</b><span>We go over the floor you want and what it'll take.</span></div></li>
+      <li class="rise"><div><b>We lay your new floor.</b><span>Done carefully, start to finish, like it's in our own home.</span></div></li>
+    </ol>
+  </div>
+</section>
+
+<section class="on-paper ask" id="ask" aria-labelledby="h-ask">
+  <div class="wrap">
+    <div class="head rise">
+      <p class="eyebrow">Free estimate</p>
+      <h2 id="h-ask">Tell us about your project</h2>
+      <p class="lede">Add a photo of the room to the text before you send it.</p>
+    </div>
+    <form id="quoteForm" class="rise" novalidate>
+      <fieldset class="field" id="f-job" aria-describedby="e-job">
+        <legend>What's the project?</legend>
+        <div class="chips">
+          <input type="checkbox" name="job" id="j1" value="Hardwood"><label for="j1">Hardwood</label>
+          <input type="checkbox" name="job" id="j2" value="LVP"><label for="j2">LVP</label>
+          <input type="checkbox" name="job" id="j3" value="Tile"><label for="j3">Tile</label>
+          <input type="checkbox" name="job" id="j4" value="Kitchen"><label for="j4">Kitchen</label>
+          <input type="checkbox" name="job" id="j5" value="Bathroom"><label for="j5">Bathroom</label>
+          <input type="checkbox" name="job" id="j6" value="Deck"><label for="j6">Deck</label>
+          <input type="checkbox" name="job" id="j7" value="Something else"><label for="j7">Something else</label>
+        </div>
+        <p class="err" id="e-job" role="alert">Pick at least one, or choose "Something else".</p>
+      </fieldset>
+      <div class="field" id="f-where">
+        <label for="where">Where is the job?</label>
+        <input type="text" id="where" name="where" autocomplete="address-level2" maxlength="60" placeholder="Town, e.g. Flanders" aria-describedby="e-where">
+        <p class="err" id="e-where" role="alert">Add your town so we know where to come.</p>
+      </div>
+      <div class="field">
+        <label for="size">How big is it? <small>(optional)</small></label>
+        <input type="text" id="size" name="size" maxlength="80" placeholder="e.g. two bedrooms, or about 400 sq ft">
+      </div>
+      <fieldset class="field">
+        <legend>When would you like it done? <small>(optional)</small></legend>
+        <div class="chips">
+          <input type="radio" name="when" id="w1" value="As soon as possible"><label for="w1">As soon as possible</label>
+          <input type="radio" name="when" id="w2" value="In the next few months"><label for="w2">Next few months</label>
+          <input type="radio" name="when" id="w3" value="Just planning"><label for="w3">Just planning</label>
+        </div>
+      </fieldset>
+      <div class="field">
+        <label for="details">Anything else? <small>(optional)</small></label>
+        <textarea id="details" name="details" maxlength="600" placeholder="What's there now, the look you like, stairs…"></textarea>
+      </div>
+      <div class="field">
+        <label for="name">Your name <small>(optional)</small></label>
+        <input type="text" id="name" name="name" autocomplete="given-name" maxlength="60">
+      </div>
+      <button class="btn btn-primary" type="submit"><svg aria-hidden="true"><use href="#i-chat"/></svg>Text this for a free estimate</button>
+      <div class="sent" id="sent" role="status" hidden>
+        <p>Didn't open your messages? Call or text us at <a href="tel:+19732529051">973-252-9051</a> and send this:</p>
+        <pre id="msgOut"></pre>
+        <button class="linkbtn" type="button" id="copyBtn">Copy message</button>
+      </div>
+      <p class="after">Opens your messages with this written out.</p>
+    </form>
+  </div>
+</section>
+
+<section class="on-navy close" id="close" aria-labelledby="h-close">
+  <div class="wrap">
+    <div class="rise">
+      <h2 id="h-close">Flanders Wood Floors <span class="accent">&amp; Construction</span></h2>
+      <p class="who">Free estimates on your next flooring project.</p>
+      <p class="area">Based in the Flanders, NJ area. Not sure we come out to you? Call and ask.</p>
+    </div>
+    <a class="bigtel rise" href="tel:+19732529051"><svg aria-hidden="true"><use href="#i-phone"/></svg>973-252-9051</a>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <span>Flanders Wood Floors &amp; Construction LLC · Flanders, NJ · <a class="nw" href="tel:+19732529051">973-252-9051</a></span>
+    <nav aria-label="Contact">
+      <a href="https://www.facebook.com/profile.php?id=100000115766293" rel="noopener">Facebook</a>
+    </nav>
+  </div>
+</footer>
+
+<a class="float" id="float" href="sms:+19732529051?&amp;body=Hi!%20I%20found%20your%20website.%20I'd%20like%20a%20free%20estimate%20for%3A%20" aria-label="Text us for a free estimate"><svg aria-hidden="true"><use href="#i-chat"/></svg></a>
+
+<script>
+/* ===== Config ===== */
+var CONFIG = {
+  PHONE: '+19732529051',
+  FLOAT: true,     // the floating text circle; false removes it
+  FONT_WAIT: 900   // ms to wait for Cal Sans before skipping the H1 bounce-in
+};
+document.documentElement.classList.add('js');
+
+/* ===== Hero H1 bounce-in: split into letters (JS only, so no-JS and reduced motion keep the plain heading) ===== */
+(function(){
+  var h=document.getElementById('h1');
+  if(!h||matchMedia('(prefers-reduced-motion: reduce)').matches)return;
+  // wait for Cal Sans so the line breaks we keep are the real ones; if it takes too long, show the plain heading instead
+  var done=false;h.classList.add('wait');
+  function give(){if(!done){done=true;h.classList.remove('wait')}}
+  setTimeout(give,CONFIG.FONT_WAIT);
+  if(document.fonts&&document.fonts.load)document.fonts.load('400 40px "Cal Sans"').then(function(){if(!done){done=true;go()}},give);else give();
+  function go(){
+  var plain=h.innerHTML,i=0,last=null,tops=[],wi=0;
+  h.setAttribute('aria-label',h.textContent.replace(/\s+/g,' ').trim());
+  // letter spans lose kerning and run wider, so note where the plain heading breaks its lines and keep those breaks
+  (function measure(node){
+    [].slice.call(node.childNodes).forEach(function(n){
+      if(n.nodeType===1)return measure(n);
+      if(n.nodeType!==3)return;
+      var re=/\S+/g,m,r=document.createRange();
+      while((m=re.exec(n.textContent))){r.setStart(n,m.index);r.setEnd(n,m.index+m[0].length);tops.push(r.getClientRects()[0].top)}
+    });
+  })(h);
+  function split(node,into){
+    [].slice.call(node.childNodes).forEach(function(n){
+      if(n.nodeType===3){
+        n.textContent.split(/(\s+)/).forEach(function(part){
+          if(!part)return;
+          if(/^\s+$/.test(part)){into.appendChild(document.createTextNode(' '));return}
+          if(wi>0&&tops[wi]>tops[wi-1]+2)into.appendChild(document.createElement('br'));
+          wi++;
+          var w=document.createElement('span');w.className='w';w.setAttribute('aria-hidden','true');
+          for(var k=0;k<part.length;k++){var c=document.createElement('span');c.className='c';c.style.setProperty('--i',i++);c.textContent=part[k];w.appendChild(c);last=c}
+          into.appendChild(w);
+        });
+      }else if(n.nodeType===1){var copy=n.cloneNode(false);split(n,copy);into.appendChild(copy)}
+    });
+  }
+  var frag=document.createDocumentFragment();split(h,frag);h.textContent='';h.appendChild(frag);h.style.whiteSpace='nowrap';
+  // once the last letter lands, put the plain heading back so kerning and text selection return
+  if(last)last.addEventListener('animationend',function(){h.innerHTML=plain;h.style.whiteSpace='';h.removeAttribute('aria-label')});
+  h.classList.remove('wait');
+  }
+})();
+
+/* ===== Service rows pre-select the matching chip in the form ===== */
+(function(){
+  [].forEach.call(document.querySelectorAll('.row[data-job]'),function(row){
+    row.addEventListener('click',function(){
+      var box=document.querySelector('#quoteForm input[name=job][value="'+row.getAttribute('data-job')+'"]');
+      if(box){box.checked=true;document.getElementById('f-job').classList.remove('bad')}
+    });
+  });
+})();
+
+/* ===== Quote form: composes a text for a free estimate ===== */
+(function(){
+  var form=document.getElementById('quoteForm');if(!form)return;
+  var sent=document.getElementById('sent'),out=document.getElementById('msgOut');
+  function val(id){return document.getElementById(id).value.trim()}
+  form.addEventListener('input',function(e){var f=e.target.closest('.field');if(f&&f.classList.contains('bad')&&e.target.type==='text'&&e.target.value.trim()){f.classList.remove('bad');e.target.setAttribute('aria-invalid','false')}});
+  form.addEventListener('change',function(e){if(e.target.name==='job'&&e.target.checked)document.getElementById('f-job').classList.remove('bad')});
+  form.addEventListener('submit',function(e){
+    e.preventDefault();
+    var jobs=[].map.call(form.querySelectorAll('input[name=job]:checked'),function(b){return b.value});
+    var w=form.querySelector('input[name=when]:checked');
+    var where=val('where'),size=val('size'),details=val('details'),name=val('name');
+    var whereEl=document.getElementById('where');
+    document.getElementById('f-job').classList.toggle('bad',!jobs.length);
+    document.getElementById('f-where').classList.toggle('bad',!where);
+    whereEl.setAttribute('aria-invalid',where?'false':'true');
+    if(!jobs.length){document.getElementById('j1').focus();return}
+    if(!where){whereEl.focus();return}
+    var msg='Hi!'+(name?' This is '+name+'.':'')+' I\'d like a free estimate for: '+jobs.join(', ')+'. The job is in '+where+'.';
+    if(size)msg+=' Size: '+size+'.';
+    if(w)msg+=' When: '+w.value+'.';
+    if(details)msg+=' '+details;
+    out.textContent=msg;
+    location.href='sms:'+CONFIG.PHONE+'?&body='+encodeURIComponent(msg);
+    // if no messages app opened (desktop, some in-app browsers), show the message to send another way
+    setTimeout(function(){if(document.visibilityState==='visible')sent.hidden=false},900);
+  });
+  document.getElementById('copyBtn').addEventListener('click',function(){
+    var b=this,t=out.textContent;
+    function ok(){b.textContent='Copied'}
+    if(navigator.clipboard&&navigator.clipboard.writeText)navigator.clipboard.writeText(t).then(ok,function(){b.textContent='Select the text above to copy'});
+    else b.textContent='Select the text above to copy';
+  });
+})();
+
+/* ===== Floating text circle: shows after the hero, hides over the service rows and while the form is on screen ===== */
+(function(){
+  var fl=document.getElementById('float');if(!fl)return;
+  if(!CONFIG.FLOAT||!('IntersectionObserver' in window)){fl.remove();return}
+  // each service row is already a way in, and the circle would sit on their arrows
+  var pastHero=false,formIn=false,svcIn=false;
+  function sync(){var on=pastHero&&!formIn&&!svcIn;fl.classList.toggle('on',on);fl.tabIndex=on?0:-1;fl.setAttribute('aria-hidden',on?'false':'true')}
+  new IntersectionObserver(function(es){pastHero=!es[0].isIntersecting;sync()},{threshold:.15}).observe(document.getElementById('hero'));
+  new IntersectionObserver(function(es){formIn=es[0].isIntersecting;sync()},{rootMargin:'-15% 0px -15% 0px'}).observe(document.getElementById('quoteForm'));
+  new IntersectionObserver(function(es){svcIn=es[0].isIntersecting;sync()}).observe(document.getElementById('services'));
+  sync();
+})();
+
+/* ===== Fade-up: everything is visible at rest; only what starts below the first screen rises 12px in ===== */
+(function(){
+  if(matchMedia('(prefers-reduced-motion: reduce)').matches||!('IntersectionObserver' in window))return;
+  var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){e.target.classList.remove('below');io.unobserve(e.target)}})},{rootMargin:'0px 0px -8% 0px'});
+  [].forEach.call(document.querySelectorAll('.rise'),function(el){if(el.getBoundingClientRect().top>innerHeight){el.classList.add('below');io.observe(el)}});
+})();
+</script>
+</body>
+</html>
