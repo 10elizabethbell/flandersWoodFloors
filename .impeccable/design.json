@@ -1,0 +1,444 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-20T02:05:25+00:00",
+  "title": "Design System: Flanders Wood Floors & Construction",
+  "extensions": {
+    "colorMeta": {
+      "navy": {
+        "role": "primary",
+        "displayName": "Harbour Navy",
+        "tonalRamp": [
+          "#13243a",
+          "#213f64",
+          "#2e5a8e",
+          "#3c74b9",
+          "#6594cd",
+          "#93b4dc",
+          "#c1d4eb",
+          "#ecf2f9"
+        ]
+      },
+      "deep": {
+        "role": "primary",
+        "displayName": "Deep Navy",
+        "tonalRamp": [
+          "#12253b",
+          "#1e4066",
+          "#2b5b92",
+          "#3876bd",
+          "#6295d0",
+          "#91b5de",
+          "#c0d5ec",
+          "#ebf2f9"
+        ]
+      },
+      "oak": {
+        "role": "secondary",
+        "displayName": "Honey Oak",
+        "tonalRamp": [
+          "#3e290e",
+          "#6c4819",
+          "#996623",
+          "#c7852e",
+          "#d9a259",
+          "#e4be8b",
+          "#f0dabd",
+          "#faf3ea"
+        ]
+      },
+      "oak-light": {
+        "role": "secondary",
+        "displayName": "Light Oak",
+        "tonalRamp": [
+          "#412b0c",
+          "#704a15",
+          "#9f691d",
+          "#cf8826",
+          "#dfa453",
+          "#e9c087",
+          "#f2dbba",
+          "#fbf4e9"
+        ]
+      },
+      "oak-ink": {
+        "role": "secondary",
+        "displayName": "Oak Ink",
+        "tonalRamp": [
+          "#42270b",
+          "#724413",
+          "#a2601a",
+          "#d27d22",
+          "#e29b50",
+          "#ebb984",
+          "#f4d7b9",
+          "#fbf2e9"
+        ]
+      },
+      "paper": {
+        "role": "neutral",
+        "displayName": "Cool Paper",
+        "tonalRamp": [
+          "#141f38",
+          "#233561",
+          "#324b8a",
+          "#4162b4",
+          "#6985c9",
+          "#96a9d9",
+          "#c3cee9",
+          "#ecf0f8"
+        ]
+      },
+      "card": {
+        "role": "neutral",
+        "displayName": "White Card",
+        "tonalRamp": [
+          "#262626",
+          "#424242",
+          "#5e5e5e",
+          "#7a7a7a",
+          "#999999",
+          "#b8b8b8",
+          "#d6d6d6",
+          "#f2f2f2"
+        ]
+      },
+      "field": {
+        "role": "neutral",
+        "displayName": "Field Tint",
+        "tonalRamp": [
+          "#162337",
+          "#263d5f",
+          "#365687",
+          "#4670af",
+          "#6d90c5",
+          "#99b1d6",
+          "#c5d3e8",
+          "#edf1f8"
+        ]
+      },
+      "body": {
+        "role": "neutral",
+        "displayName": "Slate Body",
+        "tonalRamp": [
+          "#1c2530",
+          "#314054",
+          "#465b77",
+          "#5a769b",
+          "#7e95b4",
+          "#a5b5ca",
+          "#cbd5e1",
+          "#eff2f6"
+        ]
+      },
+      "soft": {
+        "role": "neutral",
+        "displayName": "Slate Soft",
+        "tonalRamp": [
+          "#20252d",
+          "#37404d",
+          "#4e5b6e",
+          "#66768f",
+          "#8896aa",
+          "#acb5c4",
+          "#cfd5dd",
+          "#f0f2f4"
+        ]
+      },
+      "on-dark-soft": {
+        "role": "neutral",
+        "displayName": "Mist",
+        "tonalRamp": [
+          "#192433",
+          "#2c3f59",
+          "#3e5a7f",
+          "#5174a4",
+          "#7694bc",
+          "#9fb4d0",
+          "#c8d4e4",
+          "#eef2f7"
+        ]
+      },
+      "error": {
+        "role": "neutral",
+        "displayName": "Brick Error",
+        "tonalRamp": [
+          "#420e0b",
+          "#721813",
+          "#a2221b",
+          "#d22d23",
+          "#e25850",
+          "#eb8a85",
+          "#f3bcb9",
+          "#fbeae9"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Display",
+        "purpose": "Hero H1 only; letter bounce-in."
+      },
+      "headline": {
+        "displayName": "Headline",
+        "purpose": "Section H2s; last phrase may take the accent."
+      },
+      "title": {
+        "displayName": "Title",
+        "purpose": "Service rows, Facebook card label, step titles."
+      },
+      "label": {
+        "displayName": "Label",
+        "purpose": "Buttons, form labels and legends, header phone number."
+      },
+      "lede": {
+        "displayName": "Lede",
+        "purpose": "One supporting paragraph under a section heading."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Running text, inputs, chips, errors, footer."
+      }
+    },
+    "texture": {
+      "name": "line-texture",
+      "value": "repeating-linear-gradient(135deg,transparent 0 22px,rgba(255,255,255,.035) 22px 23px)",
+      "purpose": "Hero, services and footer bands only."
+    },
+    "focus": [
+      {
+        "name": "focus-light",
+        "value": "outline:3px solid #1e3a5c; outline-offset:3px; border-radius:6px",
+        "purpose": "Default focus on paper and white."
+      },
+      {
+        "name": "focus-dark",
+        "value": "outline:3px solid #d9a25a; outline-offset:3px",
+        "purpose": "Focus on navy, deep, hero and footer."
+      }
+    ],
+    "shadows": [
+      {
+        "name": "float-lift",
+        "value": "0 10px 28px rgba(10,20,36,.3)",
+        "purpose": "Floating text circle only."
+      },
+      {
+        "name": "pick-ring",
+        "value": "0 0 0 0 rgba(217,162,90,.9) -> 0 0 0 10px rgba(217,162,90,0), .6s ease-out",
+        "purpose": "Transient ring on a chip selected from a service row."
+      }
+    ],
+    "motion": [
+      {
+        "name": "letter-in",
+        "value": "1s cubic-bezier(.34,1.56,.64,1), stagger 20ms, from opacity:0 translateX(50px)",
+        "purpose": "Hero H1 bounce-in only; skipped under reduced motion, without JS, or if Cal Sans takes over 600ms."
+      },
+      {
+        "name": "rise",
+        "value": "opacity/transform .4s ease-out, from translateY(12px)",
+        "purpose": "One-time fade-up for elements that start below the first screen."
+      },
+      {
+        "name": "float-slide",
+        "value": "transform .35s cubic-bezier(.2,.8,.2,1), from translateY(120px)",
+        "purpose": "Floating text circle show/hide."
+      },
+      {
+        "name": "state",
+        "value": "background-color/color/border-color .2s; fields .15s",
+        "purpose": "Hover and focus state changes."
+      },
+      {
+        "name": "press",
+        "value": "transform scale(.98) .12s",
+        "purpose": "Button active state."
+      },
+      {
+        "name": "reduced-motion",
+        "value": "all of the above off; smooth scroll off; everything visible",
+        "purpose": "prefers-reduced-motion: reduce."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "xxs",
+        "value": "max-width:340px"
+      },
+      {
+        "name": "xs",
+        "value": "max-width:380px"
+      },
+      {
+        "name": "phone",
+        "value": "max-width:519px"
+      },
+      {
+        "name": "tablet",
+        "value": "min-width:760px"
+      },
+      {
+        "name": "landscape-phone",
+        "value": "min-width:760px and max-height:520px"
+      },
+      {
+        "name": "desktop",
+        "value": "min-width:1024px"
+      }
+    ],
+    "bandOrder": [
+      "header: paper",
+      "hero: navy + texture",
+      "services: deep + texture",
+      "care + Facebook: paper",
+      "how it works: navy",
+      "quote form: paper",
+      "close: navy",
+      "footer: deep + texture"
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Honey-oak pill for the main action; deep navy text.",
+      "html": "<a class=\"ds-btn ds-btn-primary\" href=\"#\">Get a free estimate</a>",
+      "css": ":host{--paper:#f4f6fb;--card:#fff;--field:#e6ecf5;--ink:#132840;--navy:#1e3a5c;--deep:#132840;--oak:#d9a25a;--oak-2:#e6b878;--oak-ink:#875016;--soft:#4a5668;--on-dark:#f4f6fb;--on-dark-soft:#c8d4e4;--focus:#1e3a5c;--error:#b3261e;--display:\"Cal Sans\",\"Avenir Next\",\"Segoe UI\",system-ui,sans-serif;--text:-apple-system,BlinkMacSystemFont,\"Segoe UI\",\"Helvetica Neue\",Arial,sans-serif;--texture:repeating-linear-gradient(135deg,transparent 0 22px,rgba(255,255,255,.035) 22px 23px)} .ds-btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;min-height:56px;padding:0 26px;border-radius:999px;font:400 18px/1 var(--display);text-decoration:none;cursor:pointer;border:2px solid transparent;transition:background-color .2s,color .2s,border-color .2s,transform .12s} .ds-btn:active{transform:scale(.98)} .ds-btn:focus-visible{outline:3px solid var(--focus);outline-offset:3px} .ds-btn-primary{background:var(--oak);color:var(--ink);border-color:var(--oak)} .ds-btn-primary:hover{background:var(--oak-2);border-color:var(--oak-2)}"
+    },
+    {
+      "name": "Ghost Button",
+      "kind": "button",
+      "refersTo": "button-ghost",
+      "description": "Outlined secondary pill, hero only, on navy.",
+      "html": "<div class=\"ds-band\"><a class=\"ds-btn ds-btn-ghost\" href=\"#\">Text us a photo</a></div>",
+      "css": ":host{--paper:#f4f6fb;--card:#fff;--field:#e6ecf5;--ink:#132840;--navy:#1e3a5c;--deep:#132840;--oak:#d9a25a;--oak-2:#e6b878;--oak-ink:#875016;--soft:#4a5668;--on-dark:#f4f6fb;--on-dark-soft:#c8d4e4;--focus:#1e3a5c;--error:#b3261e;--display:\"Cal Sans\",\"Avenir Next\",\"Segoe UI\",system-ui,sans-serif;--text:-apple-system,BlinkMacSystemFont,\"Segoe UI\",\"Helvetica Neue\",Arial,sans-serif;--texture:repeating-linear-gradient(135deg,transparent 0 22px,rgba(255,255,255,.035) 22px 23px)} .ds-btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;min-height:56px;padding:0 26px;border-radius:999px;font:400 18px/1 var(--display);text-decoration:none;cursor:pointer;border:2px solid transparent;transition:background-color .2s,color .2s,border-color .2s,transform .12s} .ds-btn:active{transform:scale(.98)} .ds-btn:focus-visible{outline:3px solid var(--focus);outline-offset:3px} .ds-band{background-color:var(--navy);background-image:var(--texture);padding:24px} .ds-btn-ghost{background:transparent;color:var(--on-dark);border-color:rgba(244,246,251,.7)} .ds-btn-ghost:hover{border-color:#fff;background:rgba(255,255,255,.1)} .ds-btn-ghost:focus-visible{outline-color:var(--oak)}"
+    },
+    {
+      "name": "Text Field",
+      "kind": "input",
+      "refersTo": "input-field",
+      "description": "Tinted borderless field on the white form card; navy border on hover/focus.",
+      "html": "<div class=\"ds-card\"><label class=\"ds-label\" for=\"ds-w\">Where is the job?</label><input class=\"ds-input\" id=\"ds-w\" type=\"text\" placeholder=\"Town, e.g. Flanders\"></div>",
+      "css": ":host{--paper:#f4f6fb;--card:#fff;--field:#e6ecf5;--ink:#132840;--navy:#1e3a5c;--deep:#132840;--oak:#d9a25a;--oak-2:#e6b878;--oak-ink:#875016;--soft:#4a5668;--on-dark:#f4f6fb;--on-dark-soft:#c8d4e4;--focus:#1e3a5c;--error:#b3261e;--display:\"Cal Sans\",\"Avenir Next\",\"Segoe UI\",system-ui,sans-serif;--text:-apple-system,BlinkMacSystemFont,\"Segoe UI\",\"Helvetica Neue\",Arial,sans-serif;--texture:repeating-linear-gradient(135deg,transparent 0 22px,rgba(255,255,255,.035) 22px 23px)} .ds-card{background:var(--card);border-radius:24px;padding:24px;display:grid;gap:8px} .ds-label{font:400 18px/1.2 var(--display);color:var(--ink)} .ds-input{width:100%;box-sizing:border-box;font:16px/1.4 var(--text);color:var(--ink);background:var(--field);border:2px solid transparent;border-radius:10px;padding:13px 14px;min-height:52px;caret-color:var(--navy);transition:border-color .15s} .ds-input::placeholder{color:var(--soft)} .ds-input:hover,.ds-input:focus{outline:none;border-color:var(--focus)}"
+    },
+    {
+      "name": "Chips",
+      "kind": "chip",
+      "refersTo": "chip",
+      "description": "Pill choices in the field tint; selected fills deep navy with a drawn tick.",
+      "html": "<div class=\"ds-chips\"><span class=\"ds-chip\">Hardwood</span><span class=\"ds-chip ds-on\">LVP</span><span class=\"ds-chip\">Tile</span></div>",
+      "css": ":host{--paper:#f4f6fb;--card:#fff;--field:#e6ecf5;--ink:#132840;--navy:#1e3a5c;--deep:#132840;--oak:#d9a25a;--oak-2:#e6b878;--oak-ink:#875016;--soft:#4a5668;--on-dark:#f4f6fb;--on-dark-soft:#c8d4e4;--focus:#1e3a5c;--error:#b3261e;--display:\"Cal Sans\",\"Avenir Next\",\"Segoe UI\",system-ui,sans-serif;--text:-apple-system,BlinkMacSystemFont,\"Segoe UI\",\"Helvetica Neue\",Arial,sans-serif;--texture:repeating-linear-gradient(135deg,transparent 0 22px,rgba(255,255,255,.035) 22px 23px)} .ds-chips{display:flex;flex-wrap:wrap;gap:10px;background:#fff;padding:20px;border-radius:24px} .ds-chip{display:inline-flex;align-items:center;min-height:48px;padding:0 18px;border-radius:999px;background:var(--field);border:2px solid transparent;font:16px/1 var(--text);color:var(--ink);cursor:pointer;transition:border-color .15s,background-color .15s,color .15s} .ds-chip:hover{border-color:var(--focus)} .ds-on{background:var(--ink);color:#fff} .ds-on::before{content:'';width:12px;height:7px;border:solid currentColor;border-width:0 0 2.5px 2.5px;transform:rotate(-45deg) translateY(-2px);margin-right:10px} .ds-on:hover{border-color:transparent;outline:2px solid var(--focus);outline-offset:2px}"
+    },
+    {
+      "name": "Header",
+      "kind": "nav",
+      "refersTo": "header",
+      "description": "Paper header: two-line wordmark left, tap-to-call number right.",
+      "html": "<header class=\"ds-top\"><a class=\"ds-brand\" href=\"#\"><b>Flanders</b><span>Wood Floors &amp; Construction</span></a><a class=\"ds-tel\" href=\"#\">973-252-9051</a></header>",
+      "css": ":host{--paper:#f4f6fb;--card:#fff;--field:#e6ecf5;--ink:#132840;--navy:#1e3a5c;--deep:#132840;--oak:#d9a25a;--oak-2:#e6b878;--oak-ink:#875016;--soft:#4a5668;--on-dark:#f4f6fb;--on-dark-soft:#c8d4e4;--focus:#1e3a5c;--error:#b3261e;--display:\"Cal Sans\",\"Avenir Next\",\"Segoe UI\",system-ui,sans-serif;--text:-apple-system,BlinkMacSystemFont,\"Segoe UI\",\"Helvetica Neue\",Arial,sans-serif;--texture:repeating-linear-gradient(135deg,transparent 0 22px,rgba(255,255,255,.035) 22px 23px)} .ds-top{display:flex;align-items:center;justify-content:space-between;gap:12px;min-height:64px;padding:8px 20px;background:var(--paper);color:var(--ink)} .ds-brand{display:flex;flex-direction:column;text-decoration:none;color:inherit;line-height:1} .ds-brand b{font:400 22px/1 var(--display);letter-spacing:.01em} .ds-brand span{font:600 12px/1 var(--text);letter-spacing:.06em;text-transform:uppercase;color:var(--soft);margin-top:5px} .ds-tel{font:400 18px/1 var(--display);color:inherit;text-decoration:none;white-space:nowrap;min-height:44px;display:inline-flex;align-items:center} .ds-tel:hover{color:var(--oak-ink)}"
+    },
+    {
+      "name": "Service Rows",
+      "kind": "custom",
+      "refersTo": "arrow-circle",
+      "description": "Link rows on textured deep navy; only the arrow circle reacts.",
+      "html": "<ul class=\"ds-rows\"><li><a class=\"ds-row\" href=\"#\">Hardwood floors<span class=\"ds-arrow\"><svg viewBox=\"0 0 24 24\" width=\"18\" height=\"18\" aria-hidden=\"true\"><path d=\"M5 12h14M13 6l6 6-6 6\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg></span></a></li><li><a class=\"ds-row\" href=\"#\">LVP<span class=\"ds-arrow\"><svg viewBox=\"0 0 24 24\" width=\"18\" height=\"18\" aria-hidden=\"true\"><path d=\"M5 12h14M13 6l6 6-6 6\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg></span></a></li></ul>",
+      "css": ":host{--paper:#f4f6fb;--card:#fff;--field:#e6ecf5;--ink:#132840;--navy:#1e3a5c;--deep:#132840;--oak:#d9a25a;--oak-2:#e6b878;--oak-ink:#875016;--soft:#4a5668;--on-dark:#f4f6fb;--on-dark-soft:#c8d4e4;--focus:#1e3a5c;--error:#b3261e;--display:\"Cal Sans\",\"Avenir Next\",\"Segoe UI\",system-ui,sans-serif;--text:-apple-system,BlinkMacSystemFont,\"Segoe UI\",\"Helvetica Neue\",Arial,sans-serif;--texture:repeating-linear-gradient(135deg,transparent 0 22px,rgba(255,255,255,.035) 22px 23px)} .ds-rows{list-style:none;margin:0;padding:8px 20px;background-color:var(--deep);background-image:var(--texture)} .ds-rows li{border-top:1px solid rgba(255,255,255,.12)} .ds-rows li:last-child{border-bottom:1px solid rgba(255,255,255,.12)} .ds-row{display:flex;align-items:center;justify-content:space-between;gap:16px;min-height:68px;padding:10px 0;text-decoration:none;color:var(--on-dark);font:400 22px/1.2 var(--display);outline:none} .ds-arrow{width:44px;height:44px;border-radius:50%;display:grid;place-items:center;background:rgba(255,255,255,.1);color:var(--on-dark);transition:background-color .2s,color .2s} .ds-row:hover .ds-arrow,.ds-row:focus-visible .ds-arrow{background:var(--oak);color:var(--ink)} .ds-row:focus-visible .ds-arrow{outline:3px solid var(--oak);outline-offset:3px}"
+    },
+    {
+      "name": "Facebook Link Card",
+      "kind": "card",
+      "refersTo": "link-card",
+      "description": "Navy 24px card on paper linking to more work; only the arrow reacts.",
+      "html": "<div class=\"ds-wrap\"><a class=\"ds-fb\" href=\"#\"><span>Click to see more of our work.</span><span class=\"ds-arrow\"><svg viewBox=\"0 0 24 24\" width=\"18\" height=\"18\" aria-hidden=\"true\"><path d=\"M5 12h14M13 6l6 6-6 6\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg></span></a></div>",
+      "css": ":host{--paper:#f4f6fb;--card:#fff;--field:#e6ecf5;--ink:#132840;--navy:#1e3a5c;--deep:#132840;--oak:#d9a25a;--oak-2:#e6b878;--oak-ink:#875016;--soft:#4a5668;--on-dark:#f4f6fb;--on-dark-soft:#c8d4e4;--focus:#1e3a5c;--error:#b3261e;--display:\"Cal Sans\",\"Avenir Next\",\"Segoe UI\",system-ui,sans-serif;--text:-apple-system,BlinkMacSystemFont,\"Segoe UI\",\"Helvetica Neue\",Arial,sans-serif;--texture:repeating-linear-gradient(135deg,transparent 0 22px,rgba(255,255,255,.035) 22px 23px)} .ds-wrap{background:var(--paper);padding:20px} .ds-fb{display:flex;align-items:center;justify-content:space-between;gap:14px;min-height:84px;padding:14px 16px 14px 22px;border-radius:24px;background:var(--navy);color:var(--on-dark);text-decoration:none;font:400 22px/1.2 var(--display);outline:none;max-width:520px} .ds-arrow{width:44px;height:44px;flex:none;border-radius:50%;display:grid;place-items:center;background:rgba(255,255,255,.1);transition:background-color .2s,color .2s} .ds-fb:hover .ds-arrow,.ds-fb:focus-visible .ds-arrow{background:var(--oak);color:var(--ink)}"
+    },
+    {
+      "name": "Steps",
+      "kind": "custom",
+      "refersTo": "step-number",
+      "description": "Numbered oak discs with a Cal Sans title on navy.",
+      "html": "<ol class=\"ds-steps\"><li><div><b>Tell us about the job.</b><span>A few lines and a photo is plenty to start.</span></div></li><li><div><b>Get a free estimate.</b><span>We go over the floor you want.</span></div></li></ol>",
+      "css": ":host{--paper:#f4f6fb;--card:#fff;--field:#e6ecf5;--ink:#132840;--navy:#1e3a5c;--deep:#132840;--oak:#d9a25a;--oak-2:#e6b878;--oak-ink:#875016;--soft:#4a5668;--on-dark:#f4f6fb;--on-dark-soft:#c8d4e4;--focus:#1e3a5c;--error:#b3261e;--display:\"Cal Sans\",\"Avenir Next\",\"Segoe UI\",system-ui,sans-serif;--text:-apple-system,BlinkMacSystemFont,\"Segoe UI\",\"Helvetica Neue\",Arial,sans-serif;--texture:repeating-linear-gradient(135deg,transparent 0 22px,rgba(255,255,255,.035) 22px 23px)} .ds-steps{list-style:none;margin:0;padding:24px 20px;display:grid;gap:24px;counter-reset:s;background:var(--navy);color:var(--on-dark-soft);font:16px/1.7 var(--text)} .ds-steps li{display:grid;grid-template-columns:48px 1fr;gap:16px;counter-increment:s} .ds-steps li::before{content:counter(s);width:48px;height:48px;border-radius:50%;display:grid;place-items:center;background:var(--oak);color:var(--ink);font:400 20px/1 var(--display)} .ds-steps b{display:block;font:400 21px/1.2 var(--display);color:var(--on-dark);margin-top:4px} .ds-steps span{display:block;margin-top:4px}"
+    },
+    {
+      "name": "Floating Text Circle",
+      "kind": "button",
+      "refersTo": "float-circle",
+      "description": "One 60px oak circle opening sms:, shown after the hero and hidden over services and the form.",
+      "html": "<a class=\"ds-float\" href=\"#\" aria-label=\"Text us for a free estimate\"><svg viewBox=\"0 0 24 24\" width=\"26\" height=\"26\" aria-hidden=\"true\"><path d=\"M4 5h16v11H9l-5 4z\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg></a>",
+      "css": ":host{--paper:#f4f6fb;--card:#fff;--field:#e6ecf5;--ink:#132840;--navy:#1e3a5c;--deep:#132840;--oak:#d9a25a;--oak-2:#e6b878;--oak-ink:#875016;--soft:#4a5668;--on-dark:#f4f6fb;--on-dark-soft:#c8d4e4;--focus:#1e3a5c;--error:#b3261e;--display:\"Cal Sans\",\"Avenir Next\",\"Segoe UI\",system-ui,sans-serif;--text:-apple-system,BlinkMacSystemFont,\"Segoe UI\",\"Helvetica Neue\",Arial,sans-serif;--texture:repeating-linear-gradient(135deg,transparent 0 22px,rgba(255,255,255,.035) 22px 23px)} .ds-float{width:60px;height:60px;border-radius:50%;display:grid;place-items:center;background:var(--oak);color:var(--ink);box-shadow:0 10px 28px rgba(10,20,36,.3);transition:transform .35s cubic-bezier(.2,.8,.2,1)} .ds-float:focus-visible{outline:3px solid #fff;outline-offset:2px;box-shadow:0 0 0 8px var(--ink),0 10px 28px rgba(10,20,36,.3)}"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Swept Job Site",
+    "overview": "The page should read like a finished room before the crew leaves: everything put away, nothing loud. Full-bleed bands of off-white paper and two navies stack in a calm order, so a new section is obvious without any rule lines or decoration. The only warmth is honey oak, taken from the trade because the business has no logo or brand colours. It shows up as small solid fills on the things you can press: the main button, the step numbers, the arrow on hover, the floating text circle. Cal Sans carries the headings; everything else uses the phone's own system font, so the page loads fast inside Facebook's in-app browser.\n\nContent is sparse and set for phones first: one column, a 20px gutter, big tap targets, and a hero that only holds the claim, one promise and two buttons. There is no photography; the hero is the textured navy band, because no usable job photo could be fetched (HANDOFF.md). Motion is limited to three things: the hero H1 bounces in letter by letter, content below the first screen fades up once, and the floating text circle slides in. All three switch off under reduced motion, and none of them hides content when JS is off.\n\nThis build follows the house calm band style (`~/.claude/skills/pitch-site/references/calm-photo-style.md`). Where that file and this one disagree, this file records what the Flanders build actually ships.",
+    "keyCharacteristics": [
+      "Full-bleed bands, alternating paper and navy, with a faint diagonal line texture on the textured dark bands.",
+      "One warm accent (honey oak), used as a fill. On light grounds it only appears as text in its darker oak-ink shade.",
+      "Soft, borderless shapes: 24px cards, full pills, 10px tinted fields.",
+      "One display webfont (Cal Sans, weight 400 only) and a system body at 16/1.7.",
+      "Phone-first: 44px minimum tap targets, 16px inputs, a tap-to-call number always in the header."
+    ],
+    "rules": [
+      {
+        "name": "The Oak Is a Fill Rule",
+        "body": "Honey oak is a fill, and text on it is always deep navy. When oak has to be text on paper or white, use oak-ink. Oak text is allowed only on the navy and deep bands.",
+        "section": "colors"
+      },
+      {
+        "name": "The No-Black Rule",
+        "body": "The darkest colour is deep navy. Nothing on the page is black, including the ground, text and shadows (the float shadow is a navy-black `rgba(10,20,36,.3)`).",
+        "section": "colors"
+      },
+      {
+        "name": "The One Display Face Rule",
+        "body": "Cal Sans covers headings, buttons, labels and phone numbers; the system stack covers everything else. Don't add a third family, and don't use any weight of Cal Sans other than 400.",
+        "section": "typography"
+      },
+      {
+        "name": "The Big Number Rule",
+        "body": "The phone number is set in the display face wherever it's a main action (the header, and the closing band at clamp(30px, 9vw, 52px)), always with `white-space: nowrap` so it never breaks.",
+        "section": "typography"
+      },
+      {
+        "name": "The Phone First Rule",
+        "body": "Every layout starts as one column at 390px. Desktop only adds columns; it never adds content.",
+        "section": "layout"
+      },
+      {
+        "name": "The 44px Rule",
+        "body": "Every tap target is at least 44px (buttons 56px, chips 48px, fields 52px, footer links 44px).",
+        "section": "layout"
+      },
+      {
+        "name": "The Flat Band Rule",
+        "body": "Surfaces never have a shadow. The only resting shadow belongs to the floating circle. Show separation by changing the band, not by lifting a card.",
+        "section": "elevation"
+      },
+      {
+        "name": "The Quiet Texture Rule",
+        "body": "The line texture stays at 3.5% white or fainter, and only on dark bands, so it never reads as lines through the text.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "**Do** use honey oak only as a fill, with deep navy text on it; switch to oak-ink for oak text on paper or white.",
+      "**Do** separate sections by changing the full-bleed band, and keep the 135° line texture at 3.5% white or fainter on dark bands only.",
+      "**Do** keep Cal Sans at weight 400 and limit it to headings, buttons, labels, the wordmark and phone numbers; set body text in the system stack at 16/1.7.",
+      "**Do** give fields and chips the field tint fill on the white card, and show hover and focus as a navy border or outline (oak on dark bands).",
+      "**Do** keep every tap target at 44px or more, and inputs at 16px or more.",
+      "**Do** keep the phone number tappable in the header and in the display face wherever it appears as an action, with `white-space: nowrap`.",
+      "**Do** switch off the H1 bounce-in, fade-up, float slide and pick ring under `prefers-reduced-motion`, and keep everything visible without JS."
+    ],
+    "donts": [
+      "**Don't** put white text on oak, or oak text on paper or white; both fail contrast.",
+      "**Don't** add shadows to cards, rows or buttons; the floating circle's lift is the only resting shadow.",
+      "**Don't** add hover backgrounds, outlines or lifts to service rows or the Facebook card; only the arrow circle changes.",
+      "**Don't** give any heading other than the hero H1 a letter animation, and don't add parallax, carousels or count-up counters.",
+      "**Don't** add a second floating control or a bottom bar, or show the floating circle while the form is on screen.",
+      "**Don't** use black anywhere; the darkest value is deep navy."
+    ]
+  }
+}
